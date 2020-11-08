@@ -31,11 +31,10 @@ ul {
 
 li {
     font-weight: 400;
-    font-size: 9.1vw;
+    font-size: 4vw;
     color: #313131;
     padding: 0;
     list-style: none;
-    overflow: hidden;
 }
 .intro{
     font-weight: 400;
