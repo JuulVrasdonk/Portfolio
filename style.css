@@ -26,15 +26,16 @@ section{
 ul {
     margin: 40vh 0 50vh 7vw;
     padding: 0;
-    width: 100vw;
+    width: 90vw;
 }
 
 li {
     font-weight: 400;
-    font-size: 4vw;
+    font-size: 9.1vw;
     color: #313131;
     padding: 0;
     list-style: none;
+    max-width: 90vw;
 }
 .intro{
     font-weight: 400;
@@ -55,6 +56,9 @@ h2 {
     z-index: 2;
 }
 .imagecontainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     height: 50vh;
     width: 80vw;
     margin: 0 10vw 0 10vw;
@@ -72,10 +76,8 @@ h2 {
     height: 25vh;
 }
 .imagecontainer > .stuweb{
-    position: absolute;
-    top: 16vh;
-    left: 3.5vw;
-    height: 23vh;
+    height: auto;
+    width: 70vw;
     box-shadow: 0vw 3vh 50px -30px rgba(0,0,0,.4);
 }
 .imagecontainer:hover {
