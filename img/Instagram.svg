@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="81px" viewBox="0 0 84 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-Copy-6" transform="translate(-1111.000000, -7759.000000)">
+            <g id="Group-5" transform="translate(1111.000000, 7759.000000)">
+                <rect id="Rectangle-Copy-13" fill-opacity="0.45" fill="#4285F4" x="0" y="0" width="84" height="81" rx="27"></rect>
+                <path d="M27.0777778,11 L55.9222222,11 C64.249449,11 71,17.8263999 71,26.247191 L71,54.752809 C71,63.1736001 64.249449,70 55.9222222,70 L27.0777778,70 C18.750551,70 12,63.1736001 12,54.752809 L12,26.247191 C12,17.8263999 18.750551,11 27.0777778,11 Z" id="Rectangle" stroke="#4285F4" stroke-width="7"></path>
+                <path d="M42,55 C49.1797017,55 55,48.9558441 55,41.5 C55,34.0441559 49.1797017,28 42,28 C34.8202983,28 29,34.0441559 29,41.5 C29,48.9558441 34.8202983,55 42,55 Z" id="Oval" stroke-opacity="0.45" stroke="#4285F4" stroke-width="8"></path>
+                <path d="M59.5,28 C61.4329966,28 63,26.4329966 63,24.5 C63,22.5670034 61.4329966,21 59.5,21 C57.5670034,21 56,22.5670034 56,24.5 C56,26.4329966 57.5670034,28 59.5,28 Z" id="Oval" fill-opacity="0.45" fill="#4285F4"></path>
+            </g>
+        </g>
+    </g>
+</svg>
