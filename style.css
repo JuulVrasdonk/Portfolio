@@ -12,7 +12,7 @@ body{
     background-color: #FFFDF6;
 }
 
-ul {
+.introlax {
     margin: 40vh 0 50vh 7vw;
     padding: 0;
     width: 90vw;
@@ -111,6 +111,30 @@ footer > h2{
     margin-left: 15vw;
     text-align: center;
 }
+
+
+/* Product page */
+
+.backtext {
+    right: 20px;
+    font-size: 1em;
+    text-decoration: none;
+    color: #313131;
+    margin-left: 4px;
+    margin-top: 0px;
+}
+.back {
+    display: flex;
+    flex-flow: row;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-bottom: 0;
+}
+
+.back > a > img {
+    margin: auto;
+    width: 1.5em;
+}
 a > img {
     width: 15vw;
 }
@@ -127,14 +151,18 @@ li > a {
     position: relative;
     bottom: 1vh;
 }
+nav {
+    display: flex;
+    justify-content: center;
+}
 nav > ul{
-    position: relative;
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
-    width: 85vw;
+    width: 85%;
     align-items: center;
-    margin: 6vh 5.5vw 6vh 9.5vw; 
+    margin: 6vh 5.5vw 6vh 0vw; 
+    max-width: 400px;
 }
 .active{
     position: relative;
@@ -165,32 +193,21 @@ p {
 .langhint{
     font-size: 0.5em;
     color: #FFFDF6;
-    padding-top: 15vh;
     width: 100vw;
-    height: 30vh;
     text-align: center;
-    margin-left: 0;
+    margin: 15vh 0 13vh 0;
 }
-.back {
-    display: flex;
-    flex-flow: row;
-    margin-top: 3vh;
-    margin-left: 3vw;
-    margin-bottom: 0;
+li > img {
+    width: 90vw;
+    margin: 0 5vw 10vw 5vw;
+}
+.content > ul, .imagerow{
+    list-style: none;
+    padding-inline-start: 0;
 }
 
-.back > a > img {
-    margin: auto;
-    width: 1.5em;
-}
-.backtext {
-    right: 20px;
-    font-size: 1em;
-    text-decoration: none;
-    color: #313131;
-    margin-left: 4px;
-    margin-top: 0px;
-}
+
+
 .productfooter{ 
     margin-top: 0;
     height: 25vh;
