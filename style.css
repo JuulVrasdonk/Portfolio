@@ -208,9 +208,6 @@ li > img {
     list-style: none;
     padding-inline-start: 0;
 }
-
-
-
 .productfooter{ 
     margin-top: 0;
     height: 25vh;
@@ -221,6 +218,22 @@ li > img {
 .hidden {
     display: none;
 }
+.fade-element {
+    opacity: 0;
+    -webkit-transition-delay: .5s;
+    -o-transition-delay: .5s;
+    transition-delay: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s cubic-bezier(0.79, 0, 0.6, 1);
+    transform: translateY(200px) rotate(-5deg);
+}
+.inView {
+    opacity: 1;
+    transform: translateY(0px) rotate(0deg);
+  }
+
+
 @media screen and (min-width: 30em) {
     h2 {
         font-size: 6em;
