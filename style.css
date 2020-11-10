@@ -261,4 +261,8 @@ li > img {
     .introlax {
         margin: auto;
     }
+    .itemcontainer {
+        flex-flow: row;
+        background-color: none;
+    }
 }
