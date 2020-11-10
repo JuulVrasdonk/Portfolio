@@ -11,11 +11,14 @@ body{
     flex-flow: column;
     background-color: #FFFDF6;
 }
-
+header { 
+    height: 100vh;
+}
 .introlax {
     margin: 40vh 0 50vh 7vw;
     padding: 0;
     width: 90vw;
+    position: fixed;
 }
 
 li {
