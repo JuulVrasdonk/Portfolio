@@ -43,7 +43,7 @@ h2 {
     font-size: 3.3em;
     margin-top: 2%;
 }
-.itemcontainer {
+.itemcontainer, .stuwebitemcontainer {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -58,7 +58,7 @@ h2 {
     height: 25vh;
     margin: 0% 27% 5% 0%;
 }
-.itemcontainer > .stuweb{
+.stuwebitemcontainer > .stuweb{
     height: auto;
     width: 90%;
     box-shadow: 0vw 3vh 50px -30px rgba(0,0,0,.4);
@@ -283,53 +283,141 @@ li > img {
     }
     .intro {
         padding-bottom: 50vh;
-        width: 100vw;
+        width: 100%;
         margin: 0;
+    } 
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
     }
     article {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 100vw;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0;
+        padding: 0;
     }
     .itemcontainer {
-        flex-flow: row;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 90%;
         background-color: transparent;
+        margin: 0 5% 10% 5%;
+        padding: 0;
+        border-radius: 0;
         box-shadow: none;
-        max-width: 1200px;
-        margin-bottom: 400px;
     }
-    .itemcontainer > img {
-        background-color: #E9F9F5;
-        padding: 40px 160px 40px 20px;
-        position: relative;
-        right: 40%;
-        z-index: -1;
-        border-radius: 10px;
-        box-shadow: 0vw 3vh 50px -30px rgba(0,0,0,.4);
-    }
-    .itemcontainer > h2 {
-        position: relative;
-        left: 50%;
-        bottom: 20%;
-        z-index: 3;
-    }
-    .itemcontainer > .stuweb{
-        height: auto;
-        width: 30%;
-        padding: 10% 10% 10% 10%;
-        box-shadow: 0vw 3vh 50px -30px rgba(0,0,0,.4);
-        margin-left: 6%;
-        margin-bottom: 0;
-    }
-    .cta {
-        position: absolute;
-        bottom: 30%;
-        left: 50%;
-        width: 15%;
-        z-index: 2;
-    }
-    .fade-element {
+    .itemcontainer > .ubicompimg { 
+        width: 25%;
         margin: 0;
+        background-color: #E9F9F5;;
+        padding: 10% 18% 10% 10%;
+        border-radius: 2.5%;
+        box-shadow: 0vw 3vh 50px -30px rgba(0,0,0,.4);
+    }
+    .ubicompcta {
+        position: absolute;
+        top: 70%;
+        left: 58%;
+        width: 15%;
+    }
+    .stuwebitemcontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        background-color: transparent;
+        margin: 0 5% 0% 5%;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .stuwebitemcontainer > .stuweb {
+        width: 30%;
+        object-fit: contain;
+        padding: 12% 12% 12% 12%;
+        background-color: #E9F9F5;;
+        border-radius: 2.5%;
+        margin-right: 0;
+    }
+    .stuwebcta {
+        width: 15%;
+        position: absolute;
+        top: 60%;
+        left: 0;
+    }
+    .biebitemcontainer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 90%;
+        background-color: transparent;
+        margin: 0 5% 10% 5%;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .biebitemcontainer > .bibliotheekimg {
+        width: 30%;
+        margin: 0;
+        background-color: #E9F9F5;;
+        padding: 12% 12% 12% 12%;
+        border-radius: 2.5%;
+        box-shadow: 0vw 3vh 50px -30px rgba(0,0,0,.4);
+    }
+    .biebitemcontainer > h2 {
+        position: relative;
+        margin-top: 17%;
+        margin-right: 4%;
+        font-size: 4em;
+    }
+    .bibliotheekcta {
+        position: absolute;
+        top: 70%;
+        left: 60%;
+        width: 15%;
+    }
+    footer{
+        width: 90vw;
+        height: 30vh;
+        display: flex;
+        flex-flow: column;
+        margin: 45vh 0 20vh 0;
+    }
+    footer > h2{
+        width: 100vw;
+        margin-left: ;
+        text-align: left;
+    }
+    .iconcontainer{
+        height: 0;
+        margin-top: 4vw;
+        margin-bottom: 7em;
+        display: flex;
+        flex-flow: row;
+        justify-content: left;
+    }
+    .iconcontainer img {
+        width: 4vw;
+        margin-left: 2vw;
+    }
+    .mail{
+        text-decoration: underline;
+        background-color: transparent;
+        color: #4285F4;
+        border-radius: 10px;
+        width: 20vw;
+        height: 31px;
+        margin: 4vw;
+        margin-left: 0.5vw;
+        text-align: center;
+    }
+    .desktopfooter {
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
