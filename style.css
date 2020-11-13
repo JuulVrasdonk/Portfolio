@@ -43,7 +43,7 @@ h2 {
     font-size: 3.3em;
     margin-top: 2%;
 }
-.itemcontainer, .stuwebitemcontainer {
+.itemcontainer, .stuwebitemcontainer, .biebitemcontainer {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -58,12 +58,16 @@ h2 {
     height: 25vh;
     margin: 0% 27% 5% 0%;
 }
-.stuwebitemcontainer > .stuweb{
+.stuwebitemcontainer > .stuweb, .biebitemcontainer > .bibliotheekimg{
     height: auto;
     width: 90%;
     box-shadow: 0vw 3vh 50px -30px rgba(0,0,0,.4);
     margin: 0% 5% 15% 5%;
 }
+.biebitemcontainer > h2 {
+    font-size: 2.5em;
+}
+
 .cta {
     width: 100%;
     display: flex;
@@ -84,6 +88,11 @@ footer{
     display: flex;
     flex-flow: column;
     margin: 45vh 0 20vh 0;
+}
+.desktopfooter {
+    position: relative;
+    display:flex;
+    flex-flow: column;
 }
 footer > h2{
     width: 100vw;
@@ -108,8 +117,8 @@ footer > h2{
     padding: 8px 0;
     width: 70vw;
     margin: 0;
-    margin-left: 15vw;
     text-align: center;
+    margin-left: 15vw;
 }
 
 
@@ -371,7 +380,7 @@ li > img {
     }
     .biebitemcontainer > h2 {
         position: relative;
-        margin-top: 17%;
+        margin-top: 7%;
         margin-right: 4%;
         font-size: 4em;
     }
@@ -390,7 +399,6 @@ li > img {
     }
     footer > h2{
         width: 100vw;
-        margin-left: ;
         text-align: left;
     }
     .iconcontainer{
