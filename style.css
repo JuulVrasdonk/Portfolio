@@ -151,6 +151,8 @@ nav > ul > li {
     margin: 0;
     margin-right: 6vw;
     padding: 0;
+    display: flex;
+    align-items: center;
 }
 .productheader {
     display: flex;
@@ -163,8 +165,6 @@ li > a {
     font-weight: 500;
     text-decoration: none;
     color: #C1C1C1;
-    position: relative;
-    bottom: 1vh;
 }
 nav {
     display: flex;
@@ -303,7 +303,7 @@ li > img {
         width: 100%;
         margin: 0;
     } 
-    main {
+    .homecontainer {
         display: flex;
         flex-direction: column;
         width: 100vw;
@@ -435,5 +435,66 @@ li > img {
     .desktopfooter {
         display: flex;
         flex-direction: row-reverse;
+    }
+
+
+    /* Productpagina */
+
+    .langhint {
+        font-size: 1em;
+    }
+    nav > ul > li {
+        height: 100%;
+        margin: 0;
+        margin-right: 6vw;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    li > a {
+        font-size: 1vw;   
+        font-weight: 500;
+        text-decoration: none;
+        color: #C1C1C1;
+        margin: 0;
+        position: relative;
+        bottom: 0;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 4vh;
+    }
+    nav > ul{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        width: 85%;
+        height: 100%;
+        align-items: center;
+        max-width: 992px;
+        margin: 0;
+        padding: 0;
+    }
+    section > nav {
+        margin-bottom: 15%;
+    }
+    .active{
+        position: relative;
+        top: 0vh;
+        font-weight: 500;
+        font-size: 1.3vw;
+        background-color: #4285F4;
+        color: white;
+        padding: 4px 6px;
+        border-radius: 8px;
+        margin-top: 0;
+    }
+    h1 {
+        margin-top: 20vh;
+    }
+    p {
+        margin-bottom: 20vh;
     }
 }
