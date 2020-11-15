@@ -7,15 +7,15 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Homepage-Copy-6" transform="translate(-1028.000000, -12756.000000)">
             <g id="Group-6" transform="translate(1028.000000, 12756.000000)">
-                <rect id="Rectangle-Copy-27" fill-opacity="0.45" fill="#4285F4" x="0" y="0" width="84" height="81" rx="27"></rect>
+                <rect id="Rectangle-Copy-27" fill="#4285F4" x="0" y="0" width="84" height="81" rx="27"></rect>
                 <g id="Oval-Copy-2" transform="translate(2.000000, 2.000000)">
                     <mask id="mask-2" fill="white">
                         <use xlink:href="#path-1"></use>
                     </mask>
                     <use id="Mask" fill-opacity="0.45" fill="#4285F4" opacity="0" xlink:href="#path-1"></use>
-                    <path d="M40,116 C56.0162577,116 69,102.344685 69,85.5 C69,68.6553151 56.0162577,55 40,55 C23.9837423,55 11,68.6553151 11,85.5 C11,102.344685 23.9837423,116 40,116 Z" stroke="#4285F4" stroke-width="8" mask="url(#mask-2)"></path>
+                    <path d="M40,116 C56.0162577,116 69,102.344685 69,85.5 C69,68.6553151 56.0162577,55 40,55 C23.9837423,55 11,68.6553151 11,85.5 C11,102.344685 23.9837423,116 40,116 Z" stroke="#FFFFFF" stroke-width="8" mask="url(#mask-2)"></path>
                 </g>
-                <path d="M42,46 C50.2842712,46 57,39.0604136 57,30.5 C57,21.9395864 50.2842712,15 42,15 C33.7157288,15 27,21.9395864 27,30.5 C27,39.0604136 33.7157288,46 42,46 Z" id="Oval-Copy" stroke="#4285F4" stroke-width="8"></path>
+                <path d="M42,46 C50.2842712,46 57,39.0604136 57,30.5 C57,21.9395864 50.2842712,15 42,15 C33.7157288,15 27,21.9395864 27,30.5 C27,39.0604136 33.7157288,46 42,46 Z" id="Oval-Copy" stroke="#FFFFFF" stroke-width="8"></path>
             </g>
         </g>
     </g>
