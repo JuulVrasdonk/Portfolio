@@ -574,7 +574,7 @@ h3, p {
         width: 50%;
         margin-top: 35vh;
         position: relative;
-        left: 50%;
+        left: 45%;
     }
     .introaboutme > ul {
         width: 100%;
@@ -594,16 +594,18 @@ h3, p {
     }
     .profilepicture > img {
         box-shadow: 0vw 3vh 30px -30px rgba(0,0,0,.4);
-        width: 100%;
+        width: 90%;
         object-fit: contain;
         margin-left: 0;
+        position: relative;
+        right: 15%;
     }
     .aboutmetext {
         margin-top: 25vh;
     }
     .aboutmetext > p, h3 {
         max-width: 40vw;
-        margin-left: 5%;
+        margin-left: 50%;
     }
     .aboutmetext >  h3 {
         font-size: 2em;
@@ -613,7 +615,7 @@ h3, p {
         margin-bottom: 0;
     }
     .aboutfooter {
-        margin-left: 47%;
+        margin-left: 42%;
         height: 30vh;
         margin-top: 0;
         margin-bottom: 20%;
