@@ -23,7 +23,6 @@ header {
 .aboutmebtn > img {
     margin-top: 2vh;
     width: 12vw;
-    box-shadow: 2vw 3vh 70px -10px rgba(66,133,244,.8);
 }
 .introlax {
     margin: 40vh 0 50vh 7vw;
@@ -246,6 +245,23 @@ li > img {
 .hidden {
     display: none;
 }
+
+/* About me page */
+
+.mobiletop {
+    position: absolute;
+    top: 0;
+    margin-top: 20vh;
+    margin-bottom: 0;
+}
+.aboutheader {
+    max-height: 40vh;
+}
+
+
+
+/* Animations */
+
 .fade-element {
     opacity: 0;
     -webkit-transition-delay: .5s;
@@ -260,6 +276,8 @@ li > img {
     opacity: 1;
     transform: translateY(0px) rotate(0deg);
   }
+
+
 
 
 @media screen and (min-width: 480px) {
@@ -525,6 +543,9 @@ li > img {
         position: relative;
         top: 0;
         margin-bottom: 100vh;
+    } 
+    .mobiletop {
+        position: relative;
     }
     .introaboutme {
         width: 50%;
