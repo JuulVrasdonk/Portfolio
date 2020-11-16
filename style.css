@@ -136,6 +136,7 @@ footer > h2{
 .designcredits {
     width: 100vw;
     margin: 0;
+    margin-bottom: 5vh;
     font-size: 80%;
     color: rgb(145, 145, 145);
 }
