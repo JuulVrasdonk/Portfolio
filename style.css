@@ -229,6 +229,9 @@ p {
     background-color: #242424;
     margin-bottom: 0;
 }
+.bieblink, .stuweblink {
+    font-size: 0.9em
+}
 .langhint{
     font-size: 0.5em;
     color: #FFFDF6;
@@ -517,6 +520,7 @@ h3, p {
     footer > h2{
         width: 100vw;
         text-align: left;
+        display: block;
     }
     .iconcontainer{
         height: 0;
@@ -636,6 +640,14 @@ h3, p {
         width: 50%;
         position: relative;
         left: 50%;
+    }
+    .productfooter {
+        display: flex;
+        flex-direction: row;
+    }
+    .productfooter > a {
+        margin-top: 5.5%;
+        padding: auto 15px;
     }
 
 
