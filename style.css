@@ -16,12 +16,13 @@ header {
 }
 .aboutmebtn {
     position: fixed;
-    left: 85vw;
+    left: 80vw;
     top: 2px;
     z-index: 5;
 }
 .aboutmebtn > img {
     margin-top: 2vh;
+    margin-right: 2vh;
     width: 12vw;
 }
 .introlax {
