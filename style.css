@@ -395,6 +395,9 @@ h3, p {
     p {
         margin-bottom: 20vh;
     } 
+    .aboutfooter {
+        margin: 0;
+    }
 }
 @media screen and (min-width: 992px) {
     html {
@@ -636,7 +639,7 @@ h3, p {
         margin-bottom: 0;
     }
     .aboutmain {
-        height: 280vh;
+        max-height: 2000px;
         width: 50%;
         position: relative;
         left: 50%;
