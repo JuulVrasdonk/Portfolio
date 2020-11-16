@@ -133,8 +133,12 @@ footer > h2{
     text-align: center;
     margin-left: 15vw;
 }
-
-
+.designcredits {
+    width: 100vw;
+    margin: 0;
+    font-size: 80%;
+    color: rgb(145, 145, 145);
+}
 /* Product page */
 .backtext {
     right: 20px;
@@ -267,7 +271,7 @@ li > img {
 }
 .profilepicture > img {
     width: 80vw;
-    margin: 0 10vw 10vh 10vw;
+    margin: 0 10vw 10vh;
 }
 h3, p {
     margin-left: 5%;
@@ -326,6 +330,66 @@ h3, p {
         position: relative;
         bottom: 1.5vh;
     }
+
+    /* Product pagina */
+
+    .langhint {
+        font-size: 1em;
+    }
+    nav > ul > li {
+        height: 100%;
+        margin: 0;
+        margin-right: 6vw;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    li > a {
+        font-size: 40%;   
+        font-weight: 500;
+        text-decoration: none;
+        color: #C1C1C1;
+        margin: 0;
+        position: relative;
+        bottom: 0;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 4vh;
+    }
+    nav > ul{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        width: 85%;
+        height: 100%;
+        align-items: center;
+        max-width: 992px;
+        margin: 0;
+        padding: 0;
+    }
+    section > nav {
+        margin-bottom: 15%;
+    }
+    .active{
+        position: relative;
+        top: 0vh;
+        font-weight: 500;
+        font-size: 45%;
+        background-color: #4285F4;
+        color: white;
+        padding: 4px 6px;
+        border-radius: 8px;
+        margin-top: 0;
+    }
+    h1 {
+        margin-top: 20vh;
+    }
+    p {
+        margin-bottom: 20vh;
+    } 
 }
 @media screen and (min-width: 992px) {
     html {
@@ -465,82 +529,24 @@ h3, p {
         margin-left: 2vw;
     }
     .mail{
-        text-decoration: underline;
-        background-color: transparent;
-        color: #4285F4;
+        text-decoration: none;
+        background-color:  #4285F4;
+        color: white;
         border-radius: 10px;
-        width: 20vw;
+        padding: 5px 6px;
+        width: 24vw;
         height: 31px;
         margin: 4vw;
         margin-left: 0.5vw;
         text-align: center;
     }
+    .mail > a {
+        width: 100%;
+    }
     .desktopfooter {
         display: flex;
         flex-direction: row-reverse;
     }
-
-
-    /* Productpagina */
-
-    .langhint {
-        font-size: 1em;
-    }
-    nav > ul > li {
-        height: 100%;
-        margin: 0;
-        margin-right: 6vw;
-        padding: 0;
-        display: flex;
-        align-items: center;
-    }
-    li > a {
-        font-size: 1vw;   
-        font-weight: 500;
-        text-decoration: none;
-        color: #C1C1C1;
-        margin: 0;
-        position: relative;
-        bottom: 0;
-    }
-    nav {
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-        margin-top: 4vh;
-    }
-    nav > ul{
-        display: flex;
-        flex-flow: row;
-        justify-content: space-evenly;
-        width: 85%;
-        height: 100%;
-        align-items: center;
-        max-width: 992px;
-        margin: 0;
-        padding: 0;
-    }
-    section > nav {
-        margin-bottom: 15%;
-    }
-    .active{
-        position: relative;
-        top: 0vh;
-        font-weight: 500;
-        font-size: 1.3vw;
-        background-color: #4285F4;
-        color: white;
-        padding: 4px 6px;
-        border-radius: 8px;
-        margin-top: 0;
-    }
-    h1 {
-        margin-top: 20vh;
-    }
-    p {
-        margin-bottom: 20vh;
-    } 
-
     /* About me page */
     .aboutheader {
         margin: 0;
@@ -585,6 +591,8 @@ h3, p {
     }
     .profilepicture > img {
         box-shadow: 0vw 3vh 30px -30px rgba(0,0,0,.4);
+        width: 100%;
+        margin-left: 0;
     }
     .aboutmetext {
         margin-top: 25vh;
