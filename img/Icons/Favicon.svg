@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="81px" viewBox="0 0 84 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="84" height="81" rx="27"></rect>
+        <filter x="-2.4%" y="-2.5%" width="104.8%" height="104.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.611764706   0 0 0 0 0.71372549   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-Copy-6" transform="translate(-740.000000, -12916.000000)">
+            <g id="Group-7" transform="translate(740.000000, 12916.000000)">
+                <g id="Rectangle-Copy-28">
+                    <use fill="#AAC6F5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <path d="M21.964,58.564 C29.719,58.564 33.808,54.569 33.808,46.438 L33.808,25.1 L14.679,25.1 L14.679,31.21 L26.241,31.21 L26.241,46.861 C26.241,50.48 24.643,52.313 21.588,52.313 C19.238,52.313 17.264,51.091 15.478,48.694 L11.248,53.77 C13.645,56.872 17.546,58.564 21.964,58.564 Z M57.9056309,58 L72.1466309,25.1 L64.5796309,25.1 L54.4276309,48.6 L44.4166309,25.1 L36.1916309,25.1 L50.3856309,58 L57.9056309,58 Z" id="JV" fill="#4285F4" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
