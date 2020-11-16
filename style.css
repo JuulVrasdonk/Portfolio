@@ -593,7 +593,6 @@ h3, p {
         position: fixed;
     }
     .profilepicture > img {
-        box-shadow: 0vw 3vh 30px -30px rgba(0,0,0,.4);
         width: 90%;
         object-fit: contain;
         margin-left: 0;
