@@ -260,7 +260,18 @@ li > img {
 .aboutheader {
     max-height: 40vh;
 }
-
+.introaboutme {
+    width: 100vw;
+    margin-left: 5%;
+    padding-inline-start: 0em;
+}
+.profilepicture > img {
+    width: 80vw;
+    margin: 0 10vw 10vh 10vw;
+}
+h3, p {
+    margin-left: 5%;
+}
 
 
 /* Animations */
@@ -533,19 +544,20 @@ li > img {
     /* About me page */
     .aboutheader {
         margin: 0;
-        max-height: 10vh;
+        height: 10vh;
         position: fixed;
     }
     .aboutmecontainer {
         display: flex;
         flex-direction: wrap;
-        width: 100vw;
+        width: 80vw;
         margin: 0;
         margin-right: 0;
         max-width: none;
         position: relative;
         top: 0;
         margin-bottom: 100vh;
+        float: right;
     } 
     .mobiletop {
         position: relative;
@@ -561,7 +573,7 @@ li > img {
         margin: 0%;
     }
     .introaboutme > li {
-        font-size: 4em;
+        font-size: 300%;
         width: 60vw;
         max-width: none;
     }
@@ -569,16 +581,13 @@ li > img {
         margin-top: 15vh;
         min-width: 50%;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        position: -webkit-sticky;
         position: fixed;
     }
     .profilepicture > img {
         box-shadow: 0vw 3vh 30px -30px rgba(0,0,0,.4);
     }
     .aboutmetext {
-        margin-top: 50vh;
+        margin-top: 25vh;
     }
     .aboutmetext > p, h3 {
         max-width: 40vw;
