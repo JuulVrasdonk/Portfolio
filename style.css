@@ -184,6 +184,7 @@ li > a {
     font-weight: 500;
     text-decoration: none;
     color: #C1C1C1;
+    position: relative;
 }
 nav {
     display: flex;
@@ -197,7 +198,7 @@ nav > ul{
     justify-content: space-evenly;
     width: 85%;
     align-items: center;
-    max-width: 400px;
+    max-width: 200px;
     margin: 0;
 }
 section > nav {
@@ -317,7 +318,7 @@ h3, p {
         margin-bottom: 18vh;
     }
     .mail {
-        width: 50vw;
+        width: 50%;
         margin: 0 25vw;
     }
     p{
@@ -331,63 +332,11 @@ h3, p {
         font-size: 3.5em;
         margin-bottom: 3vh;
     }
-    li > a {
-        position: relative;
-        bottom: 1.5vh;
-    }
 
     /* Product pagina */
 
     .langhint {
         font-size: 1em;
-    }
-    nav > ul > li {
-        height: 100%;
-        margin: 0;
-        margin-right: 6vw;
-        padding: 0;
-        display: flex;
-        align-items: center;
-    }
-    li > a {
-        font-size: 20%;   
-        font-weight: 500;
-        text-decoration: none;
-        color: #C1C1C1;
-        margin: 0;
-        position: relative;
-        bottom: 0;
-    }
-    nav {
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-        margin-top: 4vh;
-    }
-    nav > ul{
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;
-        width: 85%;
-        height: 100%;
-        align-items: center;
-        max-width: 992px;
-        margin: 0;
-        padding: 0;
-    }
-    section > nav {
-        margin-bottom: 15%;
-    }
-    .active{
-        position: relative;
-        top: 0vh;
-        font-weight: 500;
-        font-size: 25%;
-        background-color: #4285F4;
-        color: white;
-        padding: 4px 6px;
-        border-radius: 8px;
-        margin-top: 0;
     }
     h1 {
         margin-top: 20vh;
@@ -542,10 +491,9 @@ h3, p {
         background-color:  #4285F4;
         color: white;
         border-radius: 10px;
-        padding: 5px 6px;
-        width: 24vw;
+        padding: 5px 0px;
         height: 31px;
-        margin: 4vw;
+        margin: 5.5%;
         margin-left: 0.5vw;
         text-align: center;
     }
@@ -625,7 +573,7 @@ h3, p {
         margin-left: 42%;
         height: 30vh;
         margin-top: 0;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
     .aboutfooter >  a {
         margin-left: 19%;
@@ -651,6 +599,9 @@ h3, p {
     .productfooter > a {
         margin-top: 5.5%;
         padding: auto 15px;
+    }
+    .aboutmail {
+        max-width: 350px;
     }
 
 
