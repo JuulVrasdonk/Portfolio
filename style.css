@@ -22,7 +22,7 @@ header {
 }
 .aboutmebtn {
     position: fixed;
-    left: 85%;
+    left: 80%;
     right: 0px;
     z-index: 5;
     width: 12vw;
@@ -290,6 +290,11 @@ h3, p {
 .contactheader {
     font-size: 2.4em
 }
+.contacttext {
+    font-size: 1em;
+    color: rgb(145, 145, 145);
+    margin-left: 22%;
+}
 
 
 /* Animations */
@@ -315,6 +320,11 @@ h3, p {
 @media screen and (min-width: 480px) {
     h2 {
         font-size: 6em;
+    }
+    .aboutmebtn > img {
+        position: fixed;
+        right: 0px;
+        top: 0px;
     }
     .itemcontainer > img {
         margin: 0% 22% 5% 0%;
