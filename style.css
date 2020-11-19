@@ -1,4 +1,8 @@
 /* Mobile first part*/
+* {
+    margin: 0;
+    padding: 0;
+}
 html {
     margin: 0px;
     padding: 0px;
@@ -11,21 +15,21 @@ body{
     display: flex;
     flex-flow: column;
     background-color: #FFFDF6;
+    max-width: 100vw;
 }
 header { 
     height: 100vh;
 }
 .aboutmebtn {
     position: fixed;
-    left: auto;
-    right: 2vw;
-    top: 2px;
+    left: 85%;
+    right: 0px;
     z-index: 5;
+    width: 12vw;
 }
 .aboutmebtn > img {
-    margin-top: 2vh;
-    margin-right: 2vh;
     width: 12vw;
+    margin-top: 4px;
     max-width: 40px;
 }
 .introlax {
@@ -190,7 +194,8 @@ nav {
     display: flex;
     justify-content: center;
     width: 100vw;
-    margin-top: 4vh;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
 }
 nav > ul{
     display: flex;
@@ -281,6 +286,9 @@ li > img {
 }
 h3, p {
     margin-left: 5%;
+}
+.contactheader {
+    font-size: 2.4em
 }
 
 
